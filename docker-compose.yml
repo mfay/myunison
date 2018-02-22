@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  uni:
+    image: myunison
+    build: ./build
+    volumes:
+      - ./data1:/app_sync
+      - ./data2:/host_sync

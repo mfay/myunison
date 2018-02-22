@@ -1,0 +1,7 @@
+ignore = Name {.git,.cache}
+numericIds = true
+repeat = watch
+auto = true
+batch = true
+logfile = /tmp/unison.log
+prefer = newer
